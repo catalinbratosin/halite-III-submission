@@ -1,0 +1,11 @@
+# Ignore log files
+*.log
+
+# Ignore replay files
+replays/*
+
+# Ignore cache
+hlt/__pycache__/*
+
+# Ignore scripts
+*.sh

@@ -27,7 +27,7 @@ where:
  - `E(x, r)` is the number of enemy ships in an `r` radius around position `x`
  - `C` is a variable which grows proportional to the enemy's number of ship
  
-At each turn of the game, each  ship "books" a cell they want to visit (obviously the one with the highest $\Gamma$ value). A cell can't be chosen if another ship already has booked it this turn.
+At each turn of the game, each  ship "books" a cell they want to visit (obviously the one with the highest Γ value). A cell can't be chosen if another ship already has booked it this turn.
 
 _Lee's algorithm_ is applied to find the shortest route from the ship to the cell.  To avoid ships colliding, each other ship's **next** position is considered an obstacle when computing the route to the cell.
 
